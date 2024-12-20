@@ -4,11 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    min-width: 1326px;
 }
 
 body {
-    min-width: 1326px;
 }
 
 /* Header */
