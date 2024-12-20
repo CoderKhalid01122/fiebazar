@@ -455,20 +455,6 @@ background-color: #FFA41C;
     pointer-events: auto;
   }
 
-  @media (max-width: 768px) {
-    .floating-message {
-      width: 50px;
-      height: 50px;
-    }
-    .floating-message i {
-      font-size: 20px;
-    }
-    .floating-icons .icon {
-      width: 40px;
-      height: 40px;
-    }
-  }
-
 
 /* Footer */
 footer {
