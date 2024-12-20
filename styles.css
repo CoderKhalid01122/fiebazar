@@ -150,20 +150,6 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
@@ -399,50 +385,6 @@ opacity: 0.7;
 
 .buy-now {
 background-color: #FFA41C;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .flash-sale-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-
-    .flash-sale-header h2 {
-        font-size: 20px;
-    }
-
-    .flash-sale-header a {
-        font-size: 12px;
-    }
-
-    .product-card {
-        width: 150px;
-        padding: 8px;
-    }
-
-    .product-card h3 {
-        font-size: 14px;
-    }
-
-    .product-card img {
-        width: 80px;
-        height: 80px;
-    }
-}
-
-@media (max-width: 480px) {
-    .product-list {
-        flex-wrap: wrap;
-        gap: 15px;
-        justify-content: center;
-    }
-
-    .product-card {
-        width: 100%;
-        max-width: 200px;
-    }
 }
 
 /*  floating message  */
